@@ -10,5 +10,7 @@ namespace MovieApi.Models
         }
 
         public DbSet<Movie> Movies { get; set; } = null!;
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) => optionsBuilder.UseNpgsql("Host=localhost;Database=jamtbauc;Username=jamtbauc;Password=postgresql");
     }
 }

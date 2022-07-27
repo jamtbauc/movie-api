@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics.CodeAnalysis;
+using Npgsql.EntityFrameworkCore;
 
 namespace MovieApi.Models
 {

@@ -13,4 +13,6 @@ using MovieApi.Models;
         }
 
         public DbSet<MovieApi.Models.Movie> Movie { get; set; } = default!;
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) => optionsBuilder.UseNpgsql("Host=localhost;Database=jamtbauc;Username=jamtbauc;Password=postgresql");
     }

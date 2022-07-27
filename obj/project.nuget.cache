@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "FvWM0hSLmEolVSpR0R6BG8pHB+8cKDP7BdfCKXYAayr41RJaQZufWeEUPKYxmjyW2Z2I4U1/S9xDw/8/a0JXPw==",
+  "success": true,
+  "projectFilePath": "/home/jamtbauc/workspace/c/MovieApi/MovieApi.csproj",
+  "expectedPackageFiles": [
+    "/home/jamtbauc/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/home/jamtbauc/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/jamtbauc/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/home/jamtbauc/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/home/jamtbauc/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/home/jamtbauc/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

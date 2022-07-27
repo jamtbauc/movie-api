@@ -3,9 +3,6 @@ using MovieApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddDbContext<MovieContext>(opt => opt.UseNpgsql(builder.Configuration.GetConnectionString("MovieContext")));
-
 builder.Services.AddControllers();
 
 var app = builder.Build();
